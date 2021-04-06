@@ -11,8 +11,8 @@ export default class Header extends Component {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">                                
-                            <form className="d-flex m-auto">
-                                <input className="form-control width200 mr-1" type="search" placeholder="Search" aria-label="Search" />
+                            <form className="d-flex ml-auto">
+                                <input className="form-control with-100 mr-1" type="search" placeholder="Search" aria-label="Search" />
                                 <button className="btn btn-outline-success" type="submit">Search</button>
                             </form>
                         </div>
