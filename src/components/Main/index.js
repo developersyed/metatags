@@ -11,7 +11,7 @@ export default function Main() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-3">
-                        <Channels />
+                        <Channels  />
                     </div>
                     <div className="col-md-4">
                         <MetaData />

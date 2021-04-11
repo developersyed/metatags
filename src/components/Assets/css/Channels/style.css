@@ -1,3 +1,7 @@
+
+.channels_title {
+    text-transform: uppercase;
+}
 .channels_list li {
     display: flex;
     align-items: center;
@@ -6,6 +10,7 @@
 .channels_list li {
     opacity: 0.2;
     color: #18283E;
+    cursor: pointer;
 }
 .channels_list li span {
     margin-right: 1rem;
@@ -18,10 +23,10 @@
     border-radius: 50%;
     
 }
-.channels_list li.selected {
+.channels_list li.active {
     opacity: 1;
 }
-.channels_list li.selected span {
+.channels_list li.active span {
     background: #2A81FB;
     color: #fff;
 }
