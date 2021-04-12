@@ -10,13 +10,13 @@ export default function Main() {
             <Header />
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-2">
                         <Channels  />
                     </div>
                     <div className="col-md-4">
                         <MetaData />
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-6">
                         <Preview />
                     </div>
                 </div>
